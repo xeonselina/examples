@@ -5,10 +5,11 @@
 replicaCount: 1
 
 image:
-  repository: nginx
+  repository: selinaxeon-docker.pkg.coding.net/testing/build/source-controller
+  tag: "f93fa5880b03719154ce603bc7e602bee584cb5e"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
+
 
 nameOverride: ""
 fullnameOverride: ""
